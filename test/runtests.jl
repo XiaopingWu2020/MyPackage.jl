@@ -5,4 +5,5 @@ using Test
     # Write your own tests here.
     @test my_func(1,2) == 4
     @test my_func(2,2) == 6
+    @test my_func(2,3) == 7
 end
