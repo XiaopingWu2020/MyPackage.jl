@@ -1,6 +1,8 @@
 using MyPackage
 using Test
 
-@testset "MyPackage.jl" begin
+@testset "my_func.jl" begin
     # Write your own tests here.
+    @test my_func(1,2) == 4
+    @test my_func(2,2) == 6
 end

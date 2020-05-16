@@ -1,0 +1,1 @@
+my_func(x,y) = 2x + y
